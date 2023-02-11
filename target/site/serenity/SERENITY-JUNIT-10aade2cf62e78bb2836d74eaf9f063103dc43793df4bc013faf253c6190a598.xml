@@ -1,1 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Creacion de un nuevo cliente fallido" skipped="0" tests="2" time="21.62" timestamp="2023-02-11 01:07:05"><testcase name="Creacion fallida de un nuevo cliente sin ingresar datos"/><testcase name="Creacion correcta de un nuevo cliente solo con campos obligatorios"/></testsuite>
