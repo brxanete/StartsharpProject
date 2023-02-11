@@ -1,0 +1,251 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle"></span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="e965ee149ed1fc0cab8838b46aca8b9afcca3f87e2ce749feda36abfe1525503.html">Creacion De Un Nuevo Cliente Fallido</a></span>
+                > <span class="truncate-60"><a
+                    href="3b16055362a0342c4be38c32b04f3f1d1493351872268eb334b0dd7824e2eb48.html">Creacion correcta de un nuevo cliente solo con campos obligatorios </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 11-02-2023 01:07</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Creacion De Un Nuevo Cliente Fallido</span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                            <div class="requirementNarrative">Background: Inicio de sesion de usuario
+                                    <p></p>
+                            </div>
+                        </td>
+                        <td valign="top" align="right">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Creacion correcta de un nuevo cliente solo con campos obligatorios
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Cuando Despliego el modulo northwind<br>Y Selecciono customers<br>Y Selecciono newCustomer<br>E Ingreso customer id<br><table class='embedded'><tbody><tr><td>customerId</td></tr><tr><td>&lt;customerId&gt;</td></tr></tbody></table><br>E Ingreso company name<br><table class='embedded'><tbody><tr><td>companyName</td></tr><tr><td>&lt;companyName&gt;</td></tr></tbody></table><br>Y Selecciono save<br>Entonces Valido correcta creacion del cliente<br><table class='embedded'><tbody><tr><td>customerId</td></tr><tr><td>&lt;customerId&gt;</td></tr></tbody></table></div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="4a2f4f402061b4cff5f969aeb0baa818c8f4ac9361840229936274d3a22a7c7a.png" title=" Example: {customerId=12345, companyName=Creators}" width="1920"/>
+                <img src="4a2f4f402061b4cff5f969aeb0baa818c8f4ac9361840229936274d3a22a7c7a.png" title=" Dado Que voy a la pagina de inicio de sesion de startsharp" width="1920"/>
+                <img src="4a2f4f402061b4cff5f969aeb0baa818c8f4ac9361840229936274d3a22a7c7a.png" title=" Cuando Ingreso mi usuario
+| user |
+| admin |" width="1920"/>
+                <img src="86ea51db19ac876dce9b8f313b49b9bbd8ec7a08d3812dd331d336625e32740c.png" title=" Cuando Ingreso mi usuario
+| user |
+| admin | (completed)" width="1920"/>
+                <img src="86ea51db19ac876dce9b8f313b49b9bbd8ec7a08d3812dd331d336625e32740c.png" title=" E Ingreso mi clave
+| password |
+| serenity |" width="1920"/>
+                <img src="e2ad010086c8548c870c111a8f1faa404abb4852ea3eff593d421c4f51aef9cb.png" title=" E Ingreso mi clave
+| password |
+| serenity | (completed)" width="1920"/>
+                <img src="e2ad010086c8548c870c111a8f1faa404abb4852ea3eff593d421c4f51aef9cb.png" title=" Y Selecciono el boton de iniciar sesion" width="1920"/>
+                <img src="df87b9f9c1f7bb688bacec7e1aae0a36bbed05fecc42c7cad924f5575d75769b.png" title=" Y Selecciono el boton de iniciar sesion (completed)" width="1920"/>
+                <img src="df87b9f9c1f7bb688bacec7e1aae0a36bbed05fecc42c7cad924f5575d75769b.png" title=" Entonces Valido el inicio de sesion correcto" width="1920"/>
+                <img src="77363f8c68d97054c99eb66376effb183a78e4844dfed59e45c01409a155e460.png" title=" Entonces Valido el inicio de sesion correcto (completed)" width="1920"/>
+                <img src="77363f8c68d97054c99eb66376effb183a78e4844dfed59e45c01409a155e460.png" title=" Cuando Despliego el modulo northwind" width="1920"/>
+                <img src="c35983ce67a3b7ed1b07c44977e7955ad0f64003dbbadef65f03805f615b0ac0.png" title=" Cuando Despliego el modulo northwind (completed)" width="1920"/>
+                <img src="c35983ce67a3b7ed1b07c44977e7955ad0f64003dbbadef65f03805f615b0ac0.png" title=" Y Selecciono customers" width="1920"/>
+                <img src="521a6e5609da02be8233b0cbd2749f7050788ab31d9bbb3d0a9e6c369ff8711a.png" title=" Y Selecciono customers (completed)" width="1920"/>
+                <img src="521a6e5609da02be8233b0cbd2749f7050788ab31d9bbb3d0a9e6c369ff8711a.png" title=" Y Selecciono newCustomer" width="1920"/>
+                <img src="1d26be3d3925993539e6e81987d80570e1a17e91c682da70ff33b6eb7e9b5091.png" title=" Y Selecciono newCustomer (completed)" width="1920"/>
+                <img src="1d26be3d3925993539e6e81987d80570e1a17e91c682da70ff33b6eb7e9b5091.png" title=" E Ingreso customer id
+| customerId |
+| 12345 |" width="1920"/>
+                <img src="c8de02a235145c6338482ed1c604a641c3364f90c37d0a299b091dee92782875.png" title=" E Ingreso customer id
+| customerId |
+| 12345 | (completed)" width="1920"/>
+                <img src="c8de02a235145c6338482ed1c604a641c3364f90c37d0a299b091dee92782875.png" title=" E Ingreso company name
+| companyName |
+| Creators |" width="1920"/>
+                <img src="1aa603a01aa25db8e3df2bc70ff81995e4f39bffa9a4fab0efc087908d98e4ce.png" title=" E Ingreso company name
+| companyName |
+| Creators | (completed)" width="1920"/>
+                <img src="1aa603a01aa25db8e3df2bc70ff81995e4f39bffa9a4fab0efc087908d98e4ce.png" title=" Y Selecciono save" width="1920"/>
+                <img src="a4b38080db75933e5ee1391064266fa39fb074b748f63f05d346d1a9c5372658.png" title=" Y Selecciono save (completed)" width="1920"/>
+                <img src="a4b38080db75933e5ee1391064266fa39fb074b748f63f05d346d1a9c5372658.png" title=" Entonces Valido correcta creacion del cliente
+| customerId |
+| 12345 |" width="1920"/>
+                <img src="a9c97652f47aef8292116faf76d7771c4d74f3947c15d823a748e87478c357ad.png" title=" Entonces Valido correcta creacion del cliente
+| customerId |
+| 12345 | (completed)" width="1920"/>
+                <img src="a9c97652f47aef8292116faf76d7771c4d74f3947c15d823a748e87478c357ad.png" title=" Example: {customerId=12345, companyName=Creators} (completed): <span class='success-color'>SUCCESS</span>" width="1920"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.80</span>
+</div>
+</body>
+</html>

@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Creacion de un nuevo cliente fallido","Creacion fallida de un nuevo cliente sin ingresar datos","SUCCESS","2023-02-11T01:07:05.4445722-05:00[America/Bogota]","0.0","10.8"
+"Creacion de un nuevo cliente fallido","Creacion correcta de un nuevo cliente solo con campos obligatorios","SUCCESS","2023-02-11T01:07:17.0040206-05:00[America/Bogota]","0.0","10.82"

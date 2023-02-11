@@ -1,0 +1,8 @@
+is/serenity/demo/runners/LoginUserRunner.java
+ is.serenity.demo.runners.LoginUserRunner
+is/serenity/demo/stepdefinitions/CustomerCreationStepDefinitions.java
+ is.serenity.demo.stepdefinitions.CustomerCreationStepDefinitions
+is/serenity/demo/runners/CustomerCreationRunner.java
+ is.serenity.demo.runners.CustomerCreationRunner
+is/serenity/demo/stepdefinitions/LoginStepDefinitions.java
+ is.serenity.demo.stepdefinitions.LoginStepDefinitions

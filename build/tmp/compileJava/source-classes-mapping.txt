@@ -1,0 +1,32 @@
+is/serenity/demo/pageobjects/CustomersPageObjects.java
+ is.serenity.demo.pageobjects.CustomersPageObjects
+is/serenity/demo/pageobjects/LoginPageObjects.java
+ is.serenity.demo.pageobjects.LoginPageObjects
+is/serenity/demo/utils/ReplaceLocator.java
+ is.serenity.demo.utils.ReplaceLocator
+is/serenity/demo/utils/ReadExcel.java
+ is.serenity.demo.utils.ReadExcel
+is/serenity/demo/pageobjects/HomePageObjects.java
+ is.serenity.demo.pageobjects.HomePageObjects
+is/serenity/demo/utils/Validations.java
+ is.serenity.demo.utils.Validations
+is/serenity/demo/models/CustomerCreationUserModel.java
+ is.serenity.demo.models.CustomerCreationUserModel
+is/serenity/demo/models/RunnerClass.java
+ is.serenity.demo.models.RunnerClass
+is/serenity/demo/models/LoginUserModel.java
+ is.serenity.demo.models.LoginUserModel
+is/serenity/demo/steps/CustomerCreationSteps.java
+ is.serenity.demo.steps.CustomerCreationSteps
+is/serenity/demo/utils/ClassType.java
+ is.serenity.demo.utils.ClassType
+is/serenity/demo/utils/DataToFeature.java
+ is.serenity.demo.utils.DataToFeature
+is/serenity/demo/steps/LoginSteps.java
+ is.serenity.demo.steps.LoginSteps
+is/serenity/demo/utils/Waits.java
+ is.serenity.demo.utils.Waits
+is/serenity/demo/utils/BeforeSuite.java
+ is.serenity.demo.utils.BeforeSuite
+is/serenity/demo/pageobjects/NewCustomerPageObjects.java
+ is.serenity.demo.pageobjects.NewCustomerPageObjects
