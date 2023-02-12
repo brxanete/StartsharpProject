@@ -1,6 +1,7 @@
 package is.serenity.demo.pageobjects;
 
 import net.serenitybdd.core.pages.PageObject;
+import net.thucydides.core.annotations.DefaultUrl;
 import org.openqa.selenium.By;
 
 public class NewCustomerPageObjects extends PageObject {

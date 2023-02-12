@@ -2,7 +2,7 @@
 
 Característica: Inicio de sesion de usuario
   ##Como usuario quiero iniciar sesion en startsharp
-
+@Case1
   Escenario: Iniciar sesion satisfactoriamente
 
     Dado Que voy a la pagina de inicio de sesion de startsharp

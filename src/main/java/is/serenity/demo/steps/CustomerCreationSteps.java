@@ -21,6 +21,8 @@ public class CustomerCreationSteps extends PageObject {
     Waits wait = new Waits();
 
 
+
+
     @Step
     public void clickNorthwind() {
         homeObjects.getDriver().findElement(homeObjects.getBtnNorthwind()).click();

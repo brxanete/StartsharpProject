@@ -1,6 +1,6 @@
 # language: es
 
-Característica: Creacion de un nuevo cliente fallido
+Característica: Creacion de un nuevo cliente
 
   Antecedentes: Inicio de sesion de usuario
     Dado Que voy a la pagina de inicio de sesion de startsharp
@@ -13,6 +13,7 @@ Característica: Creacion de un nuevo cliente fallido
     Y Selecciono el boton de iniciar sesion
     Entonces Valido el inicio de sesion correcto
 
+  @Case1
   Escenario: Creacion fallida de un nuevo cliente sin ingresar datos
     Cuando Despliego el modulo northwind
     Y Selecciono customers
@@ -20,6 +21,7 @@ Característica: Creacion de un nuevo cliente fallido
     Y Selecciono save
     Entonces Valido alerta de error al crear un nuevo cliente
 
+  @Case2
   Esquema del escenario: Creacion correcta de un nuevo cliente solo con campos obligatorios
     Cuando Despliego el modulo northwind
     Y Selecciono customers

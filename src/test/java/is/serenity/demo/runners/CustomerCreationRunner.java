@@ -15,6 +15,7 @@ import static is.serenity.demo.utils.ClassType.RUNNER_CLASS;
 @RunWith(RunnerClass.class)
 @CucumberOptions(features = "src/test/resources/is.serenity.demo.features/customerCreation.feature",
         glue = "is.serenity.demo.stepdefinitions",
+       // tags = "@Case1,@Case2",
         snippets = SnippetType.CAMELCASE)
 public class CustomerCreationRunner {
 
